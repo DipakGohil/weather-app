@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .app {
+    background-image: url('/assets/hand-painted.avif');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease;
+  }
+  
+  .app.warm {
+    background-image: url('/assets/hand-painted.avif');
+  }
+  
+  main {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+    padding: 25px;
+  }
+
+  .content{
+    margin-top: 100px;
+  }
+  
+  .search-box {
+    width: 70vh;
+    margin-left: 450px;
+    margin-top: 50px;
+    
+  }
+  
+  .search-bar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+  
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+  
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px 16px 16px 16px;
+    
+  
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    
+    color: #313131;
+    font-size: 20px;
+  
+    transition: 0.4s ease;
+  }
+  
+  .search-bar:focus {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .location-box .location {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  }
+  
+  .location-box .date {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+    margin-top: 15px;
+  }
+  
+  .weather-box {
+    text-align: center;
+  }
+  
+  .weather-box .temp {
+    position: relative;
+    display: inline-block;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+  
+    padding: 40px 25px;
+    height: 110px;
+  
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 900;
+  
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+    text-align: center;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .weather-box .weather {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+    margin-top: 10px;
+  }
+
+  .bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .undefined{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 50vh;
+    margin-left: 500px;
+    text-align: center;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  }
